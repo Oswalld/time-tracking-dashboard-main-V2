@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Time tracking dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/output.css" />
+  </head>
+  <body class="bg-Very-dark-blue lg:h-[100vh] lg:px-8">
+    <div
+      class="px-6 py-[85px] lg:p-0 lg:flex lg:gap-10 lg:max-w-[1400px] lg:relative lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:top-1/2 lg:-translate-y-1/2"
+    >
+      <div class="mb-5 lg:mb-0 lg:flex lg:flex-col lg:max-w-[300px]">
+        <div
+          class="relative flex !z-10 bg-Blue rounded-2xl lg:h-full lg:flex-col lg:items-start items-center gap-4 lg:gap-10 p-8"
+        >
+          <img
+            class="h-[70px] border-2 border-White rounded-full"
+            src="./src/images/image-jeremy.png"
+            alt=""
+          />
+          <div>
+            <div class="text-Pale-Blue lg:text-lg lg:mb-2">Report for</div>
+            <div
+              class="text-White text-2xl lg:text-5xl lg:font-light lg:leading-[60px]"
+            >
+              Jeremy Robson
+            </div>
+          </div>
+        </div>
+        <ul
+          class="bg-Dark-blue lg:gap-6 -mt-5 z-0 lg:flex-col lg:items-start rounded-b-2xl flex items-center justify-between *:text-Desaturated-blue *:cursor-pointer hover:*:text-White p-8 pt-12 text-xl"
+        >
+          <li class="daily">Daily</li>
+          <li class="weekly">Weekly</li>
+          <li class="monthly">Monthly</li>
+        </ul>
+      </div>
+      <div class="containerr w-full grid gap-5 lg:gap-10 lg:grid-cols-3"></div>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
