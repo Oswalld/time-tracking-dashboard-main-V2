@@ -1,4 +1,4 @@
-fetch("../../data.json")
+fetch("/time-tracking-dashboard-main-V2/data.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error("Oops! Something went wrong.");
